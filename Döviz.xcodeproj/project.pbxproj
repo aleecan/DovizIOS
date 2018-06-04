@@ -14,9 +14,9 @@
 		9BA3FDC520C34ADA009E3E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDC320C34ADA009E3E5C /* LaunchScreen.storyboard */; };
 		9BA3FDD020C34ADA009E3E5C /* Do_vizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3FDCF20C34ADA009E3E5C /* Do_vizTests.swift */; };
 		9BA3FDDB20C34ADA009E3E5C /* Do_vizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3FDDA20C34ADA009E3E5C /* Do_vizUITests.swift */; };
-		9BA3FDE920C34BEE009E3E5C /* 1721.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDE820C34BEE009E3E5C /* 1721.jpg */; };
-		9BA3FDEC20C34F5A009E3E5C /* button_yenile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDEB20C34F5A009E3E5C /* button_yenile.png */; };
-		9BA3FDEE20C35096009E3E5C /* 4393.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDED20C35096009E3E5C /* 4393.jpg */; };
+		9BB4D20920C5E61E0043E69B /* 1721.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4D20820C5E61E0043E69B /* 1721.jpg */; };
+		9BB4D20B20C5E62C0043E69B /* button_yenile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4D20A20C5E62C0043E69B /* button_yenile.png */; };
+		9BB4D20E20C5E6450043E69B /* 4393.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4D20D20C5E6450043E69B /* 4393.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +50,10 @@
 		9BA3FDD620C34ADA009E3E5C /* DövizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DövizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA3FDDA20C34ADA009E3E5C /* Do_vizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_vizUITests.swift; sourceTree = "<group>"; };
 		9BA3FDDC20C34ADA009E3E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BA3FDE820C34BEE009E3E5C /* 1721.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1721.jpg; path = "../../../../Downloads/street-statistics-debt-loss-globe/1721.jpg"; sourceTree = "<group>"; };
-		9BA3FDEA20C34CE6009E3E5C /* Daily Mix 3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Daily Mix 3.otf"; path = "../../../../Downloads/daily_mix_3/Daily Mix 3.otf"; sourceTree = "<group>"; };
-		9BA3FDEB20C34F5A009E3E5C /* button_yenile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_yenile.png; path = ../../../../Downloads/button_yenile.png; sourceTree = "<group>"; };
-		9BA3FDED20C35096009E3E5C /* 4393.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4393.jpg; path = "../../../../Downloads/Abstract-Paper-Style-Background-Multipurpose/4393.jpg"; sourceTree = "<group>"; };
+		9BB4D20820C5E61E0043E69B /* 1721.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1721.jpg; sourceTree = "<group>"; };
+		9BB4D20A20C5E62C0043E69B /* button_yenile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_yenile.png; sourceTree = "<group>"; };
+		9BB4D20C20C5E63A0043E69B /* Daily Mix 3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Daily Mix 3.otf"; sourceTree = "<group>"; };
+		9BB4D20D20C5E6450043E69B /* 4393.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4393.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +104,14 @@
 		9BA3FDB920C34ADA009E3E5C /* Döviz */ = {
 			isa = PBXGroup;
 			children = (
+				9BB4D20A20C5E62C0043E69B /* button_yenile.png */,
+				9BB4D20D20C5E6450043E69B /* 4393.jpg */,
+				9BB4D20820C5E61E0043E69B /* 1721.jpg */,
 				9BA3FDBA20C34ADA009E3E5C /* AppDelegate.swift */,
 				9BA3FDBC20C34ADA009E3E5C /* ViewController.swift */,
+				9BB4D20C20C5E63A0043E69B /* Daily Mix 3.otf */,
 				9BA3FDBE20C34ADA009E3E5C /* Main.storyboard */,
-				9BA3FDED20C35096009E3E5C /* 4393.jpg */,
-				9BA3FDEA20C34CE6009E3E5C /* Daily Mix 3.otf */,
 				9BA3FDC120C34ADA009E3E5C /* Assets.xcassets */,
-				9BA3FDEB20C34F5A009E3E5C /* button_yenile.png */,
-				9BA3FDE820C34BEE009E3E5C /* 1721.jpg */,
 				9BA3FDC320C34ADA009E3E5C /* LaunchScreen.storyboard */,
 				9BA3FDC620C34ADA009E3E5C /* Info.plist */,
 			);
@@ -245,9 +245,9 @@
 			files = (
 				9BA3FDC520C34ADA009E3E5C /* LaunchScreen.storyboard in Resources */,
 				9BA3FDC220C34ADA009E3E5C /* Assets.xcassets in Resources */,
-				9BA3FDEE20C35096009E3E5C /* 4393.jpg in Resources */,
-				9BA3FDEC20C34F5A009E3E5C /* button_yenile.png in Resources */,
-				9BA3FDE920C34BEE009E3E5C /* 1721.jpg in Resources */,
+				9BB4D20E20C5E6450043E69B /* 4393.jpg in Resources */,
+				9BB4D20B20C5E62C0043E69B /* button_yenile.png in Resources */,
+				9BB4D20920C5E61E0043E69B /* 1721.jpg in Resources */,
 				9BA3FDC020C34ADA009E3E5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
