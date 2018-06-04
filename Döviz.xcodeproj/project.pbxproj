@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BA3FDBB20C34ADA009E3E5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3FDBA20C34ADA009E3E5C /* AppDelegate.swift */; };
+		9BA3FDBD20C34ADA009E3E5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3FDBC20C34ADA009E3E5C /* ViewController.swift */; };
+		9BA3FDC020C34ADA009E3E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDBE20C34ADA009E3E5C /* Main.storyboard */; };
+		9BA3FDC220C34ADA009E3E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDC120C34ADA009E3E5C /* Assets.xcassets */; };
+		9BA3FDC520C34ADA009E3E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDC320C34ADA009E3E5C /* LaunchScreen.storyboard */; };
+		9BA3FDD020C34ADA009E3E5C /* Do_vizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3FDCF20C34ADA009E3E5C /* Do_vizTests.swift */; };
+		9BA3FDDB20C34ADA009E3E5C /* Do_vizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3FDDA20C34ADA009E3E5C /* Do_vizUITests.swift */; };
+		9BA3FDE920C34BEE009E3E5C /* 1721.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDE820C34BEE009E3E5C /* 1721.jpg */; };
+		9BA3FDEC20C34F5A009E3E5C /* button_yenile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDEB20C34F5A009E3E5C /* button_yenile.png */; };
+		9BA3FDEE20C35096009E3E5C /* 4393.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FDED20C35096009E3E5C /* 4393.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BA3FDCC20C34ADA009E3E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA3FDAF20C34ADA009E3E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA3FDB620C34ADA009E3E5C;
+			remoteInfo = "Döviz";
+		};
+		9BA3FDD720C34ADA009E3E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA3FDAF20C34ADA009E3E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA3FDB620C34ADA009E3E5C;
+			remoteInfo = "Döviz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BA3FDB720C34ADA009E3E5C /* Döviz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Döviz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA3FDBA20C34ADA009E3E5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BA3FDBC20C34ADA009E3E5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BA3FDBF20C34ADA009E3E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BA3FDC120C34ADA009E3E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BA3FDC420C34ADA009E3E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BA3FDC620C34ADA009E3E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA3FDCB20C34ADA009E3E5C /* DövizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DövizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA3FDCF20C34ADA009E3E5C /* Do_vizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_vizTests.swift; sourceTree = "<group>"; };
+		9BA3FDD120C34ADA009E3E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA3FDD620C34ADA009E3E5C /* DövizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DövizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA3FDDA20C34ADA009E3E5C /* Do_vizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_vizUITests.swift; sourceTree = "<group>"; };
+		9BA3FDDC20C34ADA009E3E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA3FDE820C34BEE009E3E5C /* 1721.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1721.jpg; path = "../../../../Downloads/street-statistics-debt-loss-globe/1721.jpg"; sourceTree = "<group>"; };
+		9BA3FDEA20C34CE6009E3E5C /* Daily Mix 3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Daily Mix 3.otf"; path = "../../../../Downloads/daily_mix_3/Daily Mix 3.otf"; sourceTree = "<group>"; };
+		9BA3FDEB20C34F5A009E3E5C /* button_yenile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_yenile.png; path = ../../../../Downloads/button_yenile.png; sourceTree = "<group>"; };
+		9BA3FDED20C35096009E3E5C /* 4393.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4393.jpg; path = "../../../../Downloads/Abstract-Paper-Style-Background-Multipurpose/4393.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA3FDB420C34ADA009E3E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA3FDC820C34ADA009E3E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA3FDD320C34ADA009E3E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA3FDAE20C34ADA009E3E5C = {
+			isa = PBXGroup;
+			children = (
+				9BA3FDB920C34ADA009E3E5C /* Döviz */,
+				9BA3FDCE20C34ADA009E3E5C /* DövizTests */,
+				9BA3FDD920C34ADA009E3E5C /* DövizUITests */,
+				9BA3FDB820C34ADA009E3E5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA3FDB820C34ADA009E3E5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3FDB720C34ADA009E3E5C /* Döviz.app */,
+				9BA3FDCB20C34ADA009E3E5C /* DövizTests.xctest */,
+				9BA3FDD620C34ADA009E3E5C /* DövizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA3FDB920C34ADA009E3E5C /* Döviz */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3FDBA20C34ADA009E3E5C /* AppDelegate.swift */,
+				9BA3FDBC20C34ADA009E3E5C /* ViewController.swift */,
+				9BA3FDBE20C34ADA009E3E5C /* Main.storyboard */,
+				9BA3FDED20C35096009E3E5C /* 4393.jpg */,
+				9BA3FDEA20C34CE6009E3E5C /* Daily Mix 3.otf */,
+				9BA3FDC120C34ADA009E3E5C /* Assets.xcassets */,
+				9BA3FDEB20C34F5A009E3E5C /* button_yenile.png */,
+				9BA3FDE820C34BEE009E3E5C /* 1721.jpg */,
+				9BA3FDC320C34ADA009E3E5C /* LaunchScreen.storyboard */,
+				9BA3FDC620C34ADA009E3E5C /* Info.plist */,
+			);
+			path = "Döviz";
+			sourceTree = "<group>";
+		};
+		9BA3FDCE20C34ADA009E3E5C /* DövizTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3FDCF20C34ADA009E3E5C /* Do_vizTests.swift */,
+				9BA3FDD120C34ADA009E3E5C /* Info.plist */,
+			);
+			path = "DövizTests";
+			sourceTree = "<group>";
+		};
+		9BA3FDD920C34ADA009E3E5C /* DövizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3FDDA20C34ADA009E3E5C /* Do_vizUITests.swift */,
+				9BA3FDDC20C34ADA009E3E5C /* Info.plist */,
+			);
+			path = "DövizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA3FDB620C34ADA009E3E5C /* Döviz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA3FDDF20C34ADA009E3E5C /* Build configuration list for PBXNativeTarget "Döviz" */;
+			buildPhases = (
+				9BA3FDB320C34ADA009E3E5C /* Sources */,
+				9BA3FDB420C34ADA009E3E5C /* Frameworks */,
+				9BA3FDB520C34ADA009E3E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Döviz";
+			productName = "Döviz";
+			productReference = 9BA3FDB720C34ADA009E3E5C /* Döviz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BA3FDCA20C34ADA009E3E5C /* DövizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA3FDE220C34ADA009E3E5C /* Build configuration list for PBXNativeTarget "DövizTests" */;
+			buildPhases = (
+				9BA3FDC720C34ADA009E3E5C /* Sources */,
+				9BA3FDC820C34ADA009E3E5C /* Frameworks */,
+				9BA3FDC920C34ADA009E3E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA3FDCD20C34ADA009E3E5C /* PBXTargetDependency */,
+			);
+			name = "DövizTests";
+			productName = "DövizTests";
+			productReference = 9BA3FDCB20C34ADA009E3E5C /* DövizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BA3FDD520C34ADA009E3E5C /* DövizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA3FDE520C34ADA009E3E5C /* Build configuration list for PBXNativeTarget "DövizUITests" */;
+			buildPhases = (
+				9BA3FDD220C34ADA009E3E5C /* Sources */,
+				9BA3FDD320C34ADA009E3E5C /* Frameworks */,
+				9BA3FDD420C34ADA009E3E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA3FDD820C34ADA009E3E5C /* PBXTargetDependency */,
+			);
+			name = "DövizUITests";
+			productName = "DövizUITests";
+			productReference = 9BA3FDD620C34ADA009E3E5C /* DövizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA3FDAF20C34ADA009E3E5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Lee;
+				TargetAttributes = {
+					9BA3FDB620C34ADA009E3E5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9BA3FDCA20C34ADA009E3E5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BA3FDB620C34ADA009E3E5C;
+					};
+					9BA3FDD520C34ADA009E3E5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BA3FDB620C34ADA009E3E5C;
+					};
+				};
+			};
+			buildConfigurationList = 9BA3FDB220C34ADA009E3E5C /* Build configuration list for PBXProject "Döviz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA3FDAE20C34ADA009E3E5C;
+			productRefGroup = 9BA3FDB820C34ADA009E3E5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA3FDB620C34ADA009E3E5C /* Döviz */,
+				9BA3FDCA20C34ADA009E3E5C /* DövizTests */,
+				9BA3FDD520C34ADA009E3E5C /* DövizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA3FDB520C34ADA009E3E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA3FDC520C34ADA009E3E5C /* LaunchScreen.storyboard in Resources */,
+				9BA3FDC220C34ADA009E3E5C /* Assets.xcassets in Resources */,
+				9BA3FDEE20C35096009E3E5C /* 4393.jpg in Resources */,
+				9BA3FDEC20C34F5A009E3E5C /* button_yenile.png in Resources */,
+				9BA3FDE920C34BEE009E3E5C /* 1721.jpg in Resources */,
+				9BA3FDC020C34ADA009E3E5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA3FDC920C34ADA009E3E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA3FDD420C34ADA009E3E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA3FDB320C34ADA009E3E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA3FDBD20C34ADA009E3E5C /* ViewController.swift in Sources */,
+				9BA3FDBB20C34ADA009E3E5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA3FDC720C34ADA009E3E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA3FDD020C34ADA009E3E5C /* Do_vizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA3FDD220C34ADA009E3E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA3FDDB20C34ADA009E3E5C /* Do_vizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BA3FDCD20C34ADA009E3E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA3FDB620C34ADA009E3E5C /* Döviz */;
+			targetProxy = 9BA3FDCC20C34ADA009E3E5C /* PBXContainerItemProxy */;
+		};
+		9BA3FDD820C34ADA009E3E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA3FDB620C34ADA009E3E5C /* Döviz */;
+			targetProxy = 9BA3FDD720C34ADA009E3E5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BA3FDBE20C34ADA009E3E5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA3FDBF20C34ADA009E3E5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BA3FDC320C34ADA009E3E5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA3FDC420C34ADA009E3E5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA3FDDD20C34ADA009E3E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BA3FDDE20C34ADA009E3E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA3FDE020C34ADA009E3E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Döviz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lee.Do-viz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BA3FDE120C34ADA009E3E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Döviz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lee.Do-viz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BA3FDE320C34ADA009E3E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DövizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lee.Do-vizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Döviz.app/Döviz";
+			};
+			name = Debug;
+		};
+		9BA3FDE420C34ADA009E3E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DövizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lee.Do-vizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Döviz.app/Döviz";
+			};
+			name = Release;
+		};
+		9BA3FDE620C34ADA009E3E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DövizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lee.Do-vizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Döviz";
+			};
+			name = Debug;
+		};
+		9BA3FDE720C34ADA009E3E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DövizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lee.Do-vizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Döviz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA3FDB220C34ADA009E3E5C /* Build configuration list for PBXProject "Döviz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA3FDDD20C34ADA009E3E5C /* Debug */,
+				9BA3FDDE20C34ADA009E3E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA3FDDF20C34ADA009E3E5C /* Build configuration list for PBXNativeTarget "Döviz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA3FDE020C34ADA009E3E5C /* Debug */,
+				9BA3FDE120C34ADA009E3E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA3FDE220C34ADA009E3E5C /* Build configuration list for PBXNativeTarget "DövizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA3FDE320C34ADA009E3E5C /* Debug */,
+				9BA3FDE420C34ADA009E3E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA3FDE520C34ADA009E3E5C /* Build configuration list for PBXNativeTarget "DövizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA3FDE620C34ADA009E3E5C /* Debug */,
+				9BA3FDE720C34ADA009E3E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA3FDAF20C34ADA009E3E5C /* Project object */;
+}
